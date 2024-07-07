@@ -4,17 +4,14 @@
     & > :first-child {
       display: flex;
       flex-direction: row;
-      border: 3px solid red;
       width: 100%;
     }
   }
   span {
     display: flex;
     justify-content: space-evenly;
-    border: 3px solid green;
     & > :last-child {
       font-style: italic;
-      border: 3px solid purple;
       justify-content: space-evenly;
     }
   }
