@@ -11,39 +11,56 @@
 
 <body>
     <main>
-        <h1>title</h1>
+        <h1>Lesson 09 - Rolodex with Sass</h1>
+        <h1>Featuring Steve "The Dawg" Smith</h1>
     </main>
     <section>
-        <div class="img-wrapper">
+        <div>
             <img src="./img/headshot.jpg" width="150" height="150" alt="img of steve 'the dog' smith" />
-            <h3>Steve Smith</h3>
-            <p>Project Manager</p>
+            <span>
+                <h3>Steve Smith</h3>
+                <p>Project Manager</p>
+            </span>
         </div>
-        <div class="details">
-            <h3>Company</h3>
-            <p>Front End Dev Co.</p>
-            <h3>Experience</h3>
-            <p>3 Years</p>
-            <h3>School</h3>
-            <p>UW</p>
-            <h3>Major</h3>
-            <p>Marketing</p>
-            <h3>Email:</h3>
-            <p>steve@fedc.com</p>
+        <div>
+            <ul>
+                <li>
+                    <h3>Company:</h3>
+                    <p>Front End Dev Co.</p>
+                </li>
+                <li>
+                    <h3>Experience:</h3>
+                    <p>3 Years</p>
+                </li>
+                <li>
+                    <h3>School:</h3>
+                    <p>UW</p>
+                </li>
+                <li>
+                    <h3>Major:</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <h3>Email:</h3>
+                    <p>steve@fedc.com</p>
+                </li>
+                <li>
+                    <img src="./img/linkedin.svg" width="40" height="40" alt="linkedin logo">
+                    <p>steve.linkedinprofile.com</p>
 
-            <a href="linkedin.com"><img src="./img/linkedin.svg" width="40" height="40" alt="linkedin logo">
-                <p>steve.linkedinprofile.com</p>
-            </a>
+                </li>
+            </ul>
         </div>
     </section>
 </body>
 <!-- 
 steps:
 format html and field data - done
-make scss variables for: colors, background-colors, font families -
- -- see components partial in /css
-use nesting selectors from .details & on  to pad and centralize items, format image, icon, emphasis text
-media query to change from row to column orientation - see settings.responsive partial in /css
+add 2-3 scss variables in variables partial for: text colors, background-colors, font families - done
+format flex, margins and padding: use nesting selectors from .details & on  to pad and centralize items, format image, icon, emphasis text - done
+ -- this happens in components.content
+media query to change from row to column orientation 
+ -- see settings.responsive partial in /css
 
 -->
 
